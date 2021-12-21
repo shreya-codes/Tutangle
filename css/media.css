@@ -1,0 +1,158 @@
+@media screen and (max-width: 1002px) {
+    body{
+        width:100%;
+    }
+    .header {
+        position: relative;
+    }
+    
+    .user-nav-info{
+        position: absolute;
+        right:5%;
+    }
+    .navbar .user-notification{
+        display: none;
+    }
+
+    .right-sidebar{
+        display: none;
+    }
+
+    .navbar{
+        width:100%;
+    }
+
+    .user-notification{
+        padding:0px;
+    }
+
+    .search-wrapper {
+        display: none;
+    }
+    .user-nav {
+        width: 10%;
+        position: absolute;
+        background: url(../images/index.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        height: 25px;
+        margin: 16px -34px 0px 0px;
+        left: 270px;
+    }
+    .user-nav h2 {
+        display: none;
+    }
+    .user-nav ul {
+        display: none;
+    }
+    .content .left-sidebar {
+        display: none;
+    }
+    .content {
+        margin-left: 225px;
+    }
+    .article .mid-content {
+        width: 140%;
+    }
+    .entries{
+        width:70%;
+    }
+}
+
+
+@media screen and (max-width: 646px) {
+    .navbar .user-notification{
+        display: none;
+    }
+    .sidebar, .right-sidebar{
+        display: none;
+    }
+    .main-content{
+        width:90%;
+    }
+    .entries{
+        display: none;
+    }
+    .posts{
+        width:90%;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    body{
+        width:100%;
+        position:inline;
+    }
+    .float-left img{
+        position:absolute;
+        left:0%;
+        width:50%;
+    }
+    .user-nav-info{
+        position: absolute;
+        right:5%;
+    }
+    .sidebar, .right-sidebar{
+        display: none;
+    }
+    .main-content{
+        width:90%;
+    }
+    .entries{
+        left:0%;
+    }
+    .recent-search img{
+        display:none;
+    }
+    .posts{
+        width:80%;
+    }
+    .posts img{
+        position: relative;
+        width:20px;
+    }
+    .container {
+        margin: 0px auto;
+    }
+    .logo-wrapper {
+        padding-left: 280px;
+    }
+    .content {
+        display: none;
+    }
+    .user-nav {
+        width: 10%;
+        background: url(../images/index.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        height: 25px;
+        margin: 20px 134px -6px 70px;
+        left: 495px;
+        margin-left: 55px;
+    }
+    .user-nav h2 {
+        display: none;
+    }
+    .user-nav ul {
+        display: none;
+    }
+    .article {
+        width: 100%;
+    }
+    .article .mid-content {
+        padding-top: 30px;
+        width: 98%;
+    }
+    .user-notification {
+        float: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .footer{
+        position: absolute;
+        top:110%;
+        width:100%;
+    }
+}
